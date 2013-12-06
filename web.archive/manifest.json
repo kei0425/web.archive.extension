@@ -1,0 +1,13 @@
+{
+    "name" : "Go to Web Archive",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Go to Web Archive",
+    "background": {
+        "scripts": ["js/init.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "*://*/*"
+    ]
+}
